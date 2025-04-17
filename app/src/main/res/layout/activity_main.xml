@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+
+    android:background="#AF4444"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textFlashlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Включить"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="#FFD600"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ToggleButton
+        android:layout_below="@id/textFlashlight"
+        android:id="@+id/flashlightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Flashlight"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:background="#349329"/>
+
+</RelativeLayout>
